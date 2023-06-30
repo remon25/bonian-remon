@@ -1,11 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Initializing the swiper plugin for the slider.
-  // Read more here: http://idangero.us/swiper/api/
+  
 
   var mySwiper = new Swiper(".swiper-container", {
     loop: true,
     autoplay: {
-      delay: 2500, // set delay between slides
+      delay: 2500, 
     },
     pagination: {
       el: ".swiper-pagination",
